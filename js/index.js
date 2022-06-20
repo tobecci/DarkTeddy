@@ -14,7 +14,7 @@ const renderPosts = (incomingPosts) =>
             <div class="content">
               <h2>${post.id}</h2>
               <h3>${post.title}</h3>
-              <a href="/post.html?id=${post.id}">Read More</a>
+              <a href="./post.html?id=${post.id}">Read More</a>
 
               <a type="button"
                   class="btn btn-primary"
